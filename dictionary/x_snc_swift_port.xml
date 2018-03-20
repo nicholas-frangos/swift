@@ -4,7 +4,12 @@
         <element label="Code" max_length="40" name="code" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice/>
+            <choice>
+                <element label="Airport - Private" value="1"/>
+                <element label="Airport - Public" value="2"/>
+                <element label="Seaport" value="4"/>
+                <element label="Spaceport" value="3"/>
+            </choice>
         </element>
     </element>
 </database>
